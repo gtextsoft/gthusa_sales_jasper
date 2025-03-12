@@ -10,7 +10,6 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   plugins: [
-     base: '/jasper landing 2 nigeria',
     react(),
     mode === 'development' &&
     componentTagger(),
