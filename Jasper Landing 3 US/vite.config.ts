@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+   base: '/jasper landing 3 us',
   plugins: [
     react(),
     mode === 'development' &&
